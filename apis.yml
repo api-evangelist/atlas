@@ -1,7 +1,25 @@
 aid: atlas
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atlas.png
 name: Atlas
-description: Atlas is a company surfaced as a portfolio company of accel, felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Atlas is an AI implementation partner built for independent accounting firms, deploying supervised,
+  firm-specific AI "junior accountants" that automate repetitive, data-intensive workflows such as client
+  onboarding, follow-ups, bookkeeping, compliance, and financial reporting while keeping human accountants
+  in control of every decision and client relationship. Founded by Arpit Maheshwari (CEO) and Jagmal Singh
+  (CTO) and co-led by Accel and Stellaris with Felicis participation, Atlas raised a $6M seed round in 2026
+  to scale its network of partner firms across North America. Atlas is currently a services-led AI company
+  and publishes no public API, SDKs, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/atlas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Accounting
+- Fintech
+- Automation
+- Bookkeeping
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/atlas-domain-security.yml
 - type: Website
   url: https://theatlas.ai/
+- type: Blog
+  url: https://theatlas.ai/blog/
+- type: PrivacyPolicy
+  url: https://theatlas.ai/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
