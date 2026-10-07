@@ -57,6 +57,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://theatlas.ai/pricing
+- type: Plans
+  url: plans/atlas-plans-pricing.yml
 - type: DomainSecurity
   url: security/atlas-domain-security.yml
 - type: Website
